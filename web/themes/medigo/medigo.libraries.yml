@@ -1,0 +1,30 @@
+blue-scheme:
+  version: 1.x
+  css:
+    theme:
+      css/blue-scheme.css: {}
+misc:
+  version: 1.x
+  css:
+    theme:
+      css/misc.css: {}
+bootstrap:
+  version: 4.1
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/bootstrap/css/bootstrap-theme.min.css: {}
+  js:
+    vendor/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+jsglobal:
+  version: 1.x
+  js:
+    js/global.js: {}
+webfont:
+  version: 1
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali: { type: external }
+      //fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600: { type: external }
